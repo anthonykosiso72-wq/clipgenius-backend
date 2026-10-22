@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: clipgenius-backend
+    runtime: docker
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGINS
+        value: https://YOUR-GITHUB-USERNAME.github.io
+      - key: MAX_UPLOAD_MB
+        value: "300"
