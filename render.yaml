@@ -8,6 +8,6 @@ services:
       - key: GROQ_API_KEY
         sync: false
       - key: ALLOWED_ORIGINS
-        value: https://YOUR-GITHUB-USERNAME.github.io
+        value: https://anthonykosis072-wq.github.io
       - key: MAX_UPLOAD_MB
         value: "300"
